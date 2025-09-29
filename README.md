@@ -1,9 +1,13 @@
-Flower Delivery Backend
+# Flower Delivery Backend
 
-You can run App using the command
+## Quick Start
 
+You can run the app using the command:
+
+```bash
 npm install
 npm run dev
+Environment Variables
 For environment you need:
 
 MONGODB_URI - for MongoDB database
@@ -14,14 +18,15 @@ CORS_ORIGIN - for frontend connection
 
 API_PREFIX - API route prefix
 
+Features
 In this app you can:
 
-get shops
+Get shops
 
-get products from shops
+Get products from shops
 
-make order
+Make order
 
-take info about orders
+Take info about orders
 
-prefill customer data
+Prefill customer data
