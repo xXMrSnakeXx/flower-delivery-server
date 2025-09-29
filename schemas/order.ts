@@ -51,7 +51,7 @@ export const orderSchema = Joi.object<OrderInput>({
   }),
   phone: Joi.string().trim().pattern(PHONE_REGEX).required().messages({
     'string.pattern.base':
-      'Please enter a valid phone number (7-20 digits, may include +, -, spaces, parentheses)',
+      'Enter a valid phone number (e.g., 063 123 45 67)',
   }),
   address: Joi.string().trim().pattern(ADDRESS_REGEX).required().messages({
     'string.pattern.base':

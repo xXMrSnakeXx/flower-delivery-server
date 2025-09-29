@@ -37,7 +37,7 @@ const customerSchema = new Schema(
       validate: {
         validator: (v: string) => PHONE_REGEX.test(v),
         message:
-          'Please enter a valid phone number (7-20 digits, may include +, -, spaces, parentheses)',
+          'Enter a valid phone number (e.g., 063 123 45 67)',
       },
     },
     defaultAddress: {
